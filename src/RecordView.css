@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+}
+video{
+    display: inline-block;
+}
+button{
+    padding: 10px;
+    font: 100;
+    font-weight: bold;
+    margin: 5px;
+}

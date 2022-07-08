@@ -1,6 +1,6 @@
 import React from "react";
 import { useGeolocated } from "react-geolocated";
-
+import './Geolocation.css'
 const Geolocation = () => {
     const { coords, isGeolocationAvailable, isGeolocationEnabled } =
         useGeolocated({
@@ -18,11 +18,11 @@ const Geolocation = () => {
         <table>
             <tbody>
                 <tr>
-                    <td>latitude</td>
+                    <td><strong>Latitude:</strong></td>
                     <td>{coords.latitude}</td>
                 </tr>
                 <tr>
-                    <td>longitude</td>
+                    <td><strong>Longitude:</strong></td>
                     <td>{coords.longitude}</td>
                 </tr>
             </tbody>
